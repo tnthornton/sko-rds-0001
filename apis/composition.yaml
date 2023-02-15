@@ -40,7 +40,7 @@ spec:
           - type: map
             map:
               east: us-east-1
-              west: us-west-3
+              west: us-west-1
         - fromFieldPath: "spec.parameters.size"
           toFieldPath: "spec.forProvider.instanceClass"
           transforms:
